@@ -1,9 +1,9 @@
 site_name: "rj docs"
-site_url: "https://ruzickahub.github.io/docs"
+site_url: "https://ruzickahub.github.io/docs-dev/"
 site_description: "Documentation that also shines"
-site_author: 
+site_author: "vics"
 dev_addr: "127.0.0.1:8080"
-repo_url: "https://github.com/asiffer/mkdocs-shadcn"
+repo_url: "https://github.com/RuzickaHub/docs-dev"
 theme:
   name: shadcn
   icon: null
@@ -13,16 +13,17 @@ theme:
   katex_options:
     macros:
       "\\dx": "\\mathrm{d}x"
-  # show_datetime: true
+   show_datetime: true
 
-# nav:
-#   - Welcome: index.md
-#   - get_started.md
-#   - Extensions:
-#       - Footnotes: extensions/footnotes.md
-#       - Tabs: extensions/pymdownx_blocks_tab.md
-#       - Details: extensions/pymdownx_blocks_details.md
-#       - Codexec: extensions/codexec.md
+nav:
+   - Welcome: index.md
+   - get_started.md
+   - Extensions:
+
+       - Footnotes: extensions/footnotes.md
+       - Tabs: extensions/pymdownx_blocks_tab.md
+       - Details: extensions/pymdownx_blocks_details.md
+       - Codexec: extensions/codexec.md
 
 plugins:
   - search
