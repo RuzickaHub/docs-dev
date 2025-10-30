@@ -3,7 +3,7 @@ site_url: "https://ruzickahub.github.io/docs-dev/"
 site_description: "Documentation that also shines"
 site_author: "vics"
 dev_addr: "127.0.0.1:8080"
-repo_url: "https://ruzickahub.github.io/docs-dev/"
+repo_url: "https://github.com/RuzickaHub/docs-dev"
 theme:
   name: shadcn
   icon: null
