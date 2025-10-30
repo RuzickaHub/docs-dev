@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <!-- Místo pro vlastní CSS/JS -->
+{% endblock %}
+
+{% block content %}
+  <div class="md:container md:mx-auto">
+    {{ page.content }}
+  </div>
+{% endblock %}

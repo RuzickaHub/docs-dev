@@ -1,0 +1,15 @@
+site_name: Docs
+site_url: https://RuzickaHub.github.io/rj-docs
+theme:
+  name: material
+  features:
+    - navigation.instant
+extra_css:
+  - assets/styles/tailwind.css
+extra_javascript:
+  - assets/demo/main.js
+plugins:
+  - search
+  - live-edit
+nav:
+  - Home: index.md
