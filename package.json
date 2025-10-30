@@ -1,7 +1,7 @@
 {
-  "name": "mkdocs-shadcn",
-  "version": "0.9.7",
-  "author": "Alban Siffer <31479857+asiffer@users.noreply.github.com>",
+  "name": "rj-docs",
+  "version": "0.1.0",
+  "author": "vics",
   "license": "MIT",
   "scripts": {
     "build": "tailwindcss -i ./tailwind/main.css -o ./shadcn/css/base.css --minify",
